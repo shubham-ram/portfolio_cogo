@@ -1,0 +1,93 @@
+/* font-family: 'Heebo', sans-serif;
+font-family: 'Roboto', sans-serif; */
+.navBar{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 3px 16px 0 rgb(0 0 0 / 10%);
+}
+
+.w-30{
+    width: 30%;
+    font-size: 1.2rem;
+}
+
+.navAbout{
+    text-decoration: none;
+    color: #000;
+}
+.navAbout:hover{
+    color: #000;
+    font-weight: bold;
+}
+.name{
+    font-size: 2.5rem;
+    display: inline-block !important;
+}
+.img{width: 24rem;}
+.sr{
+    margin-left: 0.75rem;
+    font-weight: bolder;
+    font-family: 'Heebo', sans-serif;
+}
+.mt{
+    padding: 9.5rem 5rem 5.5rem;
+    background-color: #f6f6f7;
+}
+.button{
+    margin-top: 5rem;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+    border: none !important;
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#34073d, #ef745c);
+    transition: all 300ms linear 0;
+}
+
+.button a:hover{
+    background-image: linear-gradient(to left,#34073d, #ef745c);
+    box-shadow: 2px 3px 6px 0 black;
+    /* color: #f6f6f7; */
+}
+.about{
+    padding-top: 8rem;
+    margin:0rem 5.5rem 8rem;
+}
+.profilepic img{
+    border-radius: 100%;
+    width: 9rem;
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+}
+.contact{
+    padding: 6.5rem 5.5rem 7.5rem;
+    background-color: #f6f6f7;
+    font-weight: bold
+}
+.contact h1, .about h1{
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+}
+.contact div div{
+    width: 18rem;
+    background-color:#fff;
+}
+
+.contactDetails{
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.contactDetails img{
+    width: 4rem;
+}
+.contactDetails a{
+    padding:2rem ;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}

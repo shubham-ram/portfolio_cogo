@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+</head>
+<body lang="en">
+    <label>
+        Todo Item
+        <input id="addItem" type="text">
+    </label>
+    <button onclick="addItem()">Add item</button>
+<div id="list_task"></div>
+<script>
+       var task_list = [];
+       function addItem(){
+            let new_task = document.getElementById('addItem').value;
+            if(!new_task) return;
+            console.log(new_task);
+            task_list.push(new_task);
+            displayTasks();
+            document.getElementById('addItem').value = ''
+       }
+       function displayTasks(){
+        //get array
+        // task_list
+        let html = '';
+        task_list.map((task)=>{
+            html = html+  `<div>${task}</div>`
+            // html = html+  `<div>` + task + `</div>`
+        })
+        document.getElementById('list_task').innerHTML = html;
+        //create div
+        //add div to UI
+       }
+    </script>
+</body>
+</html>
